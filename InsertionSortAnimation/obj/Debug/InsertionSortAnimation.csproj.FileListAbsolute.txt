@@ -1,0 +1,10 @@
+C:\Users\ivang\source\repos\InsertionSortAnimation\InsertionSortAnimation\bin\Debug\InsertionSortAnimation.exe.config
+C:\Users\ivang\source\repos\InsertionSortAnimation\InsertionSortAnimation\bin\Debug\InsertionSortAnimation.exe
+C:\Users\ivang\source\repos\InsertionSortAnimation\InsertionSortAnimation\bin\Debug\InsertionSortAnimation.pdb
+C:\Users\ivang\source\repos\InsertionSortAnimation\InsertionSortAnimation\obj\Debug\InsertionSortAnimation.csprojAssemblyReference.cache
+C:\Users\ivang\source\repos\InsertionSortAnimation\InsertionSortAnimation\obj\Debug\InsertionSortAnimation.MainWindowForm.resources
+C:\Users\ivang\source\repos\InsertionSortAnimation\InsertionSortAnimation\obj\Debug\InsertionSortAnimation.Properties.Resources.resources
+C:\Users\ivang\source\repos\InsertionSortAnimation\InsertionSortAnimation\obj\Debug\InsertionSortAnimation.csproj.GenerateResource.cache
+C:\Users\ivang\source\repos\InsertionSortAnimation\InsertionSortAnimation\obj\Debug\InsertionSortAnimation.csproj.CoreCompileInputs.cache
+C:\Users\ivang\source\repos\InsertionSortAnimation\InsertionSortAnimation\obj\Debug\InsertionSortAnimation.exe
+C:\Users\ivang\source\repos\InsertionSortAnimation\InsertionSortAnimation\obj\Debug\InsertionSortAnimation.pdb
