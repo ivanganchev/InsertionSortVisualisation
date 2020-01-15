@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Forms;
@@ -12,7 +13,9 @@ namespace InsertionSortAnimation.CustomForms
 {
     class TextBoxArrayComponent : TextBox
     {
-        public TextBoxArrayComponent()
+        private int number;
+        private bool downFlag;
+        public TextBoxArrayComponent(int number)
         {
             this.Multiline = true;
             this.Width = 50;
@@ -22,26 +25,60 @@ namespace InsertionSortAnimation.CustomForms
             this.Font = new Font("Arial", 9);
             this.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ReadOnly = true;
+            
+            this.number = number;
         }
 
-        public void MoveDown(int x, int y)
+        public int getNumber()
         {
-            this.Location = new Point(x, y - 5); 
+            return this.number;
+        }
+
+        public bool isDown()
+        {
+            return this.downFlag;
+        }
+
+        public void setDownFlag(bool val)
+        {
+            this.downFlag = val;
+        }
+
+        public void MoveDown()
+        {
+            for(int i = 0; i < 20; i++)
+            {
+                Thread.Sleep(50);
+                this.Location = new Point(this.Location.X, this.Location.Y + 5);
+            }
+             
         }
         
-        public void MoveUp(int x, int y)
+        public void MoveUp()
         {
-            this.Location = new Point(x, y + 5);
+            for (int i = 0; i < 20; i++)
+            {
+                Thread.Sleep(50);
+                this.Location = new Point(this.Location.X, this.Location.Y - 5);
+            }
         }
 
-        public void MoveLeft(int x, int y)
+        public void MoveLeft()
         {
-            this.Location = new Point(x - 5, y);
+            for (int i = 0; i < 10; i++)
+            {
+                Thread.Sleep(50);
+                this.Location = new Point(this.Location.X - 5, this.Location.Y);
+            }
         }
 
-        public void MoveRight(int x, int y)
+        public void MoveRight()
         {
-            this.Location = new Point(x + 5, y);
+            for (int i = 0; i < 10; i++)
+            {
+                Thread.Sleep(50);
+                this.Location = new Point(this.Location.X + 5, this.Location.Y);
+            }
         }
 
         
